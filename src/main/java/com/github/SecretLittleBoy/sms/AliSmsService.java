@@ -5,4 +5,9 @@ public class AliSmsService {
         System.out.println("send message:" + message);
         return message;
     }
+
+    public String sendMMS(String message, String mediaUrl) {
+        System.out.println("send message:" + message + ", mediaUrl:" + mediaUrl);
+        return message;
+    }
 }
